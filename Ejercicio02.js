@@ -1,0 +1,22 @@
+"use strict";
+var _a;
+var nombre = "Roberto Salazar";
+var edad = 30;
+var programador = true;
+var lenguajes = ["C", "c++", "java", "C#"];
+var par = ["edad", 30];
+var meses;
+(function (meses) {
+    meses[meses["Enero"] = 0] = "Enero";
+    meses[meses["Febrero"] = 1] = "Febrero";
+    meses[meses["Marzo"] = 2] = "Marzo";
+    meses[meses["Abril"] = 3] = "Abril";
+    meses[meses["Mayo"] = 4] = "Mayo";
+})(meses || (meses = {}));
+;
+var calendario = meses.Abril;
+var nada = undefined;
+var temporal = edad;
+var NULL = null;
+var Undefined = undefined;
+(_a = document.getElementById("output")) === null || _a === void 0 ? void 0 : _a.innerHTML = nombre + ", edad: " + edad + ", Programa en " + lenguajes[3];
